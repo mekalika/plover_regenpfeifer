@@ -4,7 +4,7 @@ Plover Regenpfeifer
 
 Regenpfeifer (German stenography system) support for `Plover <https://github.com/openstenoproject/plover>`__.
 
-For now it only remaps the top S- to Z- but it is planned to add orthography rules in the future.
+Alongside the generated main dictionary, this package ships a default dictionary stack -- fingerspelling, punctuation, commands, suffixes, and interjections -- layered on top so that the everyday grammar layer works out of the box. See `GETTING_STARTED.md <GETTING_STARTED.md>`__ for details.
 
 In the versions lower than 1.0.0, -Z was remapped to -N but this was reverted as described in `this blog post <https://stenoblog.com/regenpfeifer-layout-update/>`__.
 

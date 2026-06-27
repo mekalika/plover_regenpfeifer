@@ -254,4 +254,11 @@ KEYMAPS = {
 }
 
 DICTIONARIES_ROOT = 'asset:plover_regenpfeifer:dictionaries'
-DEFAULT_DICTIONARIES = ('regenpfeifer_main.json',)
+DEFAULT_DICTIONARIES = (
+    'commands.json',
+    'punctuation.json',
+    'fingerspelling.json',
+    'suffixes.json',
+    'interjections.json',
+    'regenpfeifer_main.json',
+)
